@@ -2,8 +2,8 @@
 
 # Call fowsr and upload data to Wunderground
 
-wsr="/usr/bin/fowsr -fw -n /mnt/sda2/%%s.log"
-LOG=/mnt/sda2/wunderground.log
+wsr="/usr/bin/fowsr -fw -n /tmp/sda2/%%s.log"
+LOG=/tmp/wunderground.log
 
 ID=$1
 PASSWORD=$2
