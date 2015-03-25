@@ -2,7 +2,7 @@
 
 # Call fowsr and upload data to Wunderground
 
-wsr="/usr/bin/fowsr -fw -n /tmp/sda2/%%s.log"
+wsr="/usr/bin/fowsr -fw -n /tmp/%%s.log"
 LOG=/tmp/wunderground.log
 
 ID=$1
